@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1"
     android:background="#0a7802">
-
-
     <ImageView
         android:layout_width="219dp"
         android:layout_height="212dp"
@@ -14,6 +14,24 @@
         android:layout_marginTop="50dp"
         android:src="@drawable/sufola"
         android:layout_gravity="center_horizontal" />
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
 
 
 
@@ -75,5 +93,6 @@
         android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:textColor="#ffffff" />
-
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

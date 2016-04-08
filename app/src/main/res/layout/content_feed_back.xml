@@ -6,7 +6,22 @@
     android:weightSum="1"
     android:background="#0a7802">
 
+    <ScrollView
 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
     <TextView
         android:layout_width="353dp"
         android:layout_height="wrap_content"
@@ -82,5 +97,6 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="40dp" />
 
-
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

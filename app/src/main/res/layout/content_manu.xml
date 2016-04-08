@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#0a7802">
+
+    <Button
+        android:id="@+id/info"
+        android:text="Information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/myarea"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="39dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="0.04"
+        android:background="#fefdfd" />
+
+    <Button
+        android:id="@+id/myarea"
+        android:text="My Area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_above="@+id/ninvension"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp"
+        android:background="#fefdfc" />
+
+    <Button
+        android:id="@+id/ninvension"
+        android:text="New Invension"
+        android:layout_width="match_parent"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/feedback"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp"
+        android:background="#fefefe" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:text="Feed Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="57dp"
+        android:layout_above="@+id/logout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#fffefc" />
+
+    <Button
+        android:id="@+id/logout"
+        android:text="Log Out"
+        android:layout_width="166dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#fffefc"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="40dp" />
+
+
+
+</RelativeLayout>

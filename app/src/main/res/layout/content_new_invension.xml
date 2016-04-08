@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a7802">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="10dp"
+        android:text="New Invension"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/abc_action_button_min_width_overflow_material"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+
+        android:layout_marginRight="10dp"
+        android:text="A New  Way To Collect Potato"
+        android:textColor="#ffffff"
+
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_action_bar_content_inset_material" />
+    <TextView
+        android:id="@+id/tvmore"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="more..."
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#fbeb03" />
+
+
+    <Button
+        android:id="@+id/back"
+        android:text="Back"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#fffefc"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="40dp" />
+
+</LinearLayout>

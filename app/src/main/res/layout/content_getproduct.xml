@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0a7802">
+
+    <ImageView
+        android:layout_width="219dp"
+        android:layout_height="212dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/invension"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Contact:01671080275
+Price: 20,000
+"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/back"
+        android:text="Back"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#fffefc"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="110dp"
+        android:layout_marginBottom="40dp" />
+
+
+</LinearLayout>

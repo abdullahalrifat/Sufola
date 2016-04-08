@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#0a7802">
+
+
+    <ImageView
+        android:layout_width="219dp"
+        android:layout_height="212dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/sufola"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Username"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editusername"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#d4c1c1"
+        android:background="#ffffff" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:layout_marginLeft="50dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editpassword"
+        android:layout_width="match_parent"
+
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:textColor="#ddcaca" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:text="Login"
+        android:layout_marginRight="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvregisterlink"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sign-Up"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
